@@ -1,1 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hawaiʻi DAR Portal Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <h1>This Portal Services:</h1>
+        <div class="brand">STATE OF HAWAIʻI · Division of Aquatic Resources</div>
+      </header>
 
+      <nav class="tabs" aria-label="Portal service tabs">
+        <button class="tab-button" data-tab="license">Nonresident Recreational Marine Fishing License</button>
+        <button class="tab-button active" data-tab="laynet">Laynet Permit</button>
+      </nav>
+
+      <section class="hero">
+        <h2>Get Started</h2>
+      </section>
+
+      <section class="content-grid">
+        <article class="left-panel tab-panel" data-panel="laynet">
+          <section class="card">
+            <h3>Note for Hawaiʻi visitors</h3>
+            <ul>
+              <li>Laynets are a type of gill net used from shore or a boat and they hold strong cultural and traditional significance in Hawaiʻi.</li>
+              <li>You do not need a lay net permit for polefishing or diving.</li>
+              <li>Their use comes with additional regulations and is not recommended for beginners or casual fishing.</li>
+            </ul>
+          </section>
+
+          <section class="card split">
+            <div>
+              <h3>The Updated Permit</h3>
+              <ul>
+                <li>Amendments to the lay net rules (HAR 13-75-12.4) took effect on March 11, 2023, replacing the previous lay net registration process.</li>
+                <li>One permit number is assigned to each permit holder and can be used to tag every lay net they own, with no need for different numbers for different nets.</li>
+                <li>Allows permit holders to obtain additional nets at any time without registering them individually.</li>
+              </ul>
+            </div>
+            <div class="image-block" role="img" aria-label="School of fish underwater"></div>
+          </section>
+
+          <section class="card details">
+            <div>
+              <h3>Rules Resources</h3>
+              <ul>
+                <li><a href="#">Lay net FAQ</a></li>
+                <li><a href="#">Net marking directions</a></li>
+                <li><a href="#">Marine Managed Areas Map (includes lay net restricted areas)</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3>Permit Validity</h3>
+              <p>Each permit is valid for one year, from July 1 to June 30, and can be renewed annually</p>
+            </div>
+            <div>
+              <h3>Cost</h3>
+              <ul>
+                <li>HI Residents - Free</li>
+                <li>Non Residents - $25</li>
+                <li>Additional processing fee at checkout</li>
+              </ul>
+            </div>
+            <p class="other-link">
+              For other DAR licenses and permits visit:
+              <a href="https://dlnr.hawaii.gov/dar/fishing/licenses-and-permits/" target="_blank" rel="noreferrer">https://dlnr.hawaii.gov/dar/fishing/licenses-and-permits/</a>
+            </p>
+          </section>
+        </article>
+
+        <article class="left-panel tab-panel hidden" data-panel="license">
+          <section class="card">
+            <h3>Nonresident Recreational Marine Fishing License</h3>
+            <p>
+              This tab is ready for license-specific content. The portal links on the right remain active for account
+              access and additional licenses and permits.
+            </p>
+          </section>
+        </article>
+
+        <aside class="right-panel">
+          <a class="cta create" href="https://fishing.hawaii.gov/login" target="_blank" rel="noreferrer">Create Account</a>
+          <a class="cta login" href="https://fishing.hawaii.gov/login" target="_blank" rel="noreferrer">Log In</a>
+
+          <h3>From your account you can:</h3>
+          <ul>
+            <li>Apply for a new license</li>
+            <li>Receive renewal reminders and announcements</li>
+            <li>Access your records/documents 24/7</li>
+          </ul>
+
+          <div class="contact">
+            <p>For questions and support, please contact:</p>
+            <p><a href="mailto:fishinglicense@hawaii.gov">fishinglicense@hawaii.gov</a></p>
+            <p><a href="tel:8085870109">808-587-0109</a></p>
+          </div>
+
+          <a class="other-licenses" href="https://dlnr.hawaii.gov/dar/fishing/licenses-and-permits/" target="_blank" rel="noreferrer">
+            View other licenses &amp; permits
+          </a>
+
+          <p class="hours">Weekdays from 8:00 AM to 3:30 PM Hawaii Standard Time (excluding State holidays PDF)</p>
+        </aside>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
